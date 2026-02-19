@@ -1,0 +1,16 @@
+# Sistema
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Editor
+.vscode/
+.idea/
+
+# Claude
+.claude/
+
+# Archivos temporales
+*.tmp
+*.log
+nul

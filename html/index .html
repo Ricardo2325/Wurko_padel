@@ -1,0 +1,717 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cafetería Restaurante Wurko Padel</title>
+    <meta name="description" content="Cafetería Restaurante Wurko Padel. Especialistas en bocadillos de pollo y comida casera. Desayunos, almuerzos y cenas a precios increíbles.">
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700;800&family=Montserrat:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <!-- Progress Bar -->
+    <div id="progress-bar" style="position:fixed;top:0;left:0;height:3px;width:0%;background:linear-gradient(90deg,var(--primary-blue),var(--primary-green));z-index:9999;transition:width 0.1s linear;"></div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container nav-container">
+            <a href="#inicio" class="logo">
+                <img src="../images/Logo_Wurko.jpg" alt="Wurko Logo">
+            </a>
+            <button class="mobile-menu-toggle" id="mobileMenuToggle" aria-label="Abrir menú de navegación" aria-expanded="false">
+                <span></span>
+                <span></span>
+                <span></span>
+            </button>
+            <ul class="nav-menu" id="navMenu">
+                <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                <li><a href="#sobre-nosotros" class="nav-link">Sobre Nosotros</a></li>
+                <li><a href="#menu" class="nav-link">Menú</a></li>
+                <li><a href="#eventos" class="nav-link">Eventos</a></li>
+                <li><a href="#galeria" class="nav-link">Galería</a></li>
+                <li><a href="#reservas" class="nav-link">Reservas</a></li>
+                <li><a href="#contacto" class="nav-link">Contacto</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+            <h1 class="hero-title">
+                <span class="hero-title-top">Wurko Padel</span>
+                <span class="hero-title-bottom">Cafetería Restaurante</span>
+            </h1>
+            <p class="hero-subtitle">Comida casera en las instalaciones de Wurko Pádel</p>
+            <div class="hero-buttons">
+                <a href="#menu" class="btn btn-primary">Ver Menú</a>
+                <a href="#reservas" class="btn btn-primary">Hacer Reserva</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre-nosotros" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre Nosotros</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text">
+                    <h3>Tu lugar de confianza para comer bien</h3>
+                    <p>En Wurko Cafetería-Restaurante nos especializamos en ofrecer comida casera a precios que no encontrarás en ningún otro sitio. Ubicados dentro de las instalaciones de pádel en el polígono industrial del Mayorazgo, Santa Cruz de Tenerife, somos el punto de encuentro perfecto para jugadores, trabajadores y visitantes que buscan calidad y buen sabor.</p>
+                    <p>Nuestros famosos <strong>bocadillos de pollo</strong> son la estrella de la casa, pero también ofrecemos una amplia variedad de platos para desayunos, almuerzos y cenas. Todo preparado con ingredientes frescos y ese toque casero que tanto nos caracteriza.</p>
+                    <p>Además, organizamos <strong>eventos especiales</strong> como nuestras famosas paellas para torneos de pádel, celebraciones y eventos corporativos. ¡El lugar perfecto para después del partido!</p>
+                    <div class="about-features">
+                        <div class="feature-item reveal" style="--item-index:0">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M14.25 7.756a4.5 4.5 0 1 0 0 8.488"></path>
+                                    <path d="M7.5 10.5h5.25"></path>
+                                    <path d="M7.5 13.5h5.25"></path>
+                                    <circle cx="12" cy="12" r="9"></circle>
+                                </svg>
+                            </div>
+                            <h4>Mejores Precios</h4>
+                            <p>Calidad sin comprometer el bolsillo</p>
+                        </div>
+                        <div class="feature-item reveal" style="--item-index:1">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M3 2v7c0 1.1.9 2 2 2h4a2 2 0 0 0 2-2V2"></path>
+                                    <path d="M7 2v20"></path>
+                                    <path d="M21 15V2v0a5 5 0 0 0-5 5v6c0 1.1.9 2 2 2h3Zm0 0v7"></path>
+                                </svg>
+                            </div>
+                            <h4>Comida Casera</h4>
+                            <p>Hecho como en casa</p>
+                        </div>
+                        <div class="feature-item reveal" style="--item-index:2">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"></circle>
+                                    <path d="M8 14s1.5 2 4 2 4-2 4-2"></path>
+                                    <line x1="9" y1="9" x2="9.01" y2="9"></line>
+                                    <line x1="15" y1="9" x2="15.01" y2="9"></line>
+                                </svg>
+                            </div>
+                            <h4>Atención Personalizada</h4>
+                            <p>Trato cercano y familiar</p>
+                        </div>
+                        <div class="feature-item reveal" style="--item-index:3">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 -960 960 960" fill="currentColor">
+                                    <path d="M120-640v-200h280v200H120Zm80-80h120v-40H200v40Zm-5 485q-35-35-35-85H80v-120q0-66 47-113t113-47h160v200h140l140-174v-106H560v-80h120q33 0 56.5 23.5T760-680v134L580-320H400q0 50-35 85t-85 35q-50 0-85-35Zm113.5-56.5Q320-303 320-320h-80q0 17 11.5 28.5T280-280q17 0 28.5-11.5ZM675-235q-35-35-35-85t35-85q35-35 85-35t85 35q35 35 35 85t-35 85q-35 35-85 35t-85-35Zm113.5-56.5Q800-303 800-320t-11.5-28.5Q777-360 760-360t-28.5 11.5Q720-337 720-320t11.5 28.5Q743-280 760-280t28.5-11.5ZM160-400h160v-120h-80q-33 0-56.5 23.5T160-440v40Zm160-320v-40 40Zm0 320Z"/>
+                                </svg>
+                            </div>
+                            <h4>Hacemos Envíos</h4>
+                            <p>Servicio a domicilio disponible</p>
+                        </div>
+                        <div class="feature-item reveal" style="--item-index:4">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M9 11a3 3 0 1 0 6 0a3 3 0 0 0 -6 0"></path>
+                                    <path d="M17.657 16.657l-4.243 4.243a2 2 0 0 1 -2.827 0l-4.244 -4.243a8 8 0 1 1 11.314 0z"></path>
+                                </svg>
+                            </div>
+                            <h4>Ubicación Privilegiada</h4>
+                            <p>En las instalaciones de pádel</p>
+                        </div>
+                        <div class="feature-item reveal" style="--item-index:5">
+                            <div class="feature-icon">
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                                    <circle cx="9" cy="7" r="4"></circle>
+                                    <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                                    <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                                </svg>
+                            </div>
+                            <h4>Eventos y Paellas</h4>
+                            <p>Para grupos y celebraciones</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestro Menú</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Comida casera preparada con los mejores ingredientes</p>
+            </div>
+
+            <div class="menu-featured-grid">
+                <!-- Salchicha de metro -->
+                <div class="menu-featured-item">
+                    <div class="menu-item-image">
+                        <img src="../images/placeholder-food.jpg" alt="Salchicha de metro" loading="lazy">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Salchicha de metro</h3>
+                        <p>Pollo, Mechada, Jamón, Queso y nuestras salsas especiales</p>
+                    </div>
+                </div>
+
+                <!-- Papas Locas -->
+                <div class="menu-featured-item">
+                    <div class="menu-item-image">
+                        <img src="../images/Archivo_000.png" alt="Papas Locas Wurko" loading="lazy">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Papas Locas Wurko Padel</h3>
+                        <p>Pollo, Mechada, Jamón, Queso y nuestras salsas especiales</p>
+                    </div>
+                </div>
+
+                <!-- Hamburguesa Wurko -->
+                <div class="menu-featured-item">
+                    <div class="menu-item-image">
+                        <img src="../images/Hamburguesa.jpeg" alt="Hamburguesa Wurko Padel" loading="lazy">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Hamburguesa Wurko Padel</h3>
+                        <p>Tomate, Lechuga, Pollo, Queso, Cebolla, Bacon y Huevo</p>
+                    </div>
+                </div>
+
+                <!-- Perritos -->
+                <div class="menu-featured-item">
+                    <div class="menu-item-image">
+                        <img src="../images/placeholder-food.jpg" alt="Perritos" loading="lazy">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Perritos</h3>
+                        <p>Pulguita + Zumo Natural + Café o Cortado</p>
+                    </div>
+                </div>
+
+                <!-- Bocadillos -->
+                <div class="menu-featured-item">
+                    <div class="featured-badge">★ Especialidad</div>
+                    <div class="menu-item-image">
+                        <img src="../images/bocadillo4.jpeg" alt="Bocadillos" loading="lazy">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Bocadillos</h3>
+                        <p>Mechada, Pollo, Serrano, Combinado y más opciones</p>
+                    </div>
+                </div>
+
+                <!-- Croissant -->
+                <div class="menu-featured-item">
+                    <div class="menu-item-image">
+                        <img src="../images/Croissant.jpeg" alt="Croissant" loading="lazy">
+                    </div>
+                    <div class="menu-item-content">
+                        <h3>Croissant</h3>
+                        <p>Mechada, Pollo, Serrano, Combinado y más opciones</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="menu-full-cta">
+                <div class="menu-cta-content">
+                    <h3>¿Quieres ver todo nuestro menú?</h3>
+                    <p>Descubre todas nuestras opciones: Desayunos, Bocadillos, Sandwiches, Croissants, Pulguitas, Hamburguesas, Salchichas, Tablas, Perritos, Tapas, Arepas, Bebidas, Zumos Naturales, Batidos y mucho más</p>
+                    
+                    <div class="menu-cta-buttons">
+                        <a href="https://drive.google.com/file/d/1X1Gmsx0EsSEpKN5aGsHDdEEBR5xcJHg0/view" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-extra-large">
+                            Ver Menú Completo
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Events Section -->
+    <section id="eventos" class="events">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Eventos Especiales</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Organizamos eventos increíbles para torneos de pádel, celebraciones y más</p>
+            </div>
+
+            <div class="events-grid">
+                <div class="event-card">
+                    <div class="event-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                            <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                            <path d="M4 22h16"></path>
+                            <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                            <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                            <path d="M18 2H6v7a6 6 0 0 0 12 0V2Z"></path>
+                        </svg>
+                    </div>
+                    <h3>Torneos de Pádel</h3>
+                    <p>Ofrecemos catering completo para torneos en las pistas. Desde desayunos para jugadores hasta nuestras famosas paellas al finalizar el torneo.</p>
+                    <ul class="event-features">
+                        <li>✓ Desayunos para participantes</li>
+                        <li>✓ Paellas para grupos grandes</li>
+                        <li>✓ Bebidas y refrescos</li>
+                        <li>✓ Menú especial deportistas</li>
+                    </ul>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M2 12h20"></path>
+                            <path d="M20 12v8a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2v-8"></path>
+                            <path d="m4 8 16-4"></path>
+                            <path d="m8.86 6.78-.45-1.81a2 2 0 0 1 1.45-2.43l1.94-.48a2 2 0 0 1 2.43 1.46l.45 1.8"></path>
+                        </svg>
+                    </div>
+                    <h3>Paellas para Grupos</h3>
+                    <p>Nuestras paellas son el plato estrella para eventos. Preparadas al momento con ingredientes frescos y recetas tradicionales.</p>
+                    <ul class="event-features">
+                        <li>✓ Paella valenciana tradicional</li>
+                        <li>✓ Paella de carne y verduras</li>
+                        <li>✓ Opciones vegetarianas disponibles</li>
+                        <li>✓ Mínimo 10 personas</li>
+                    </ul>
+                </div>
+
+                <div class="event-card">
+                    <div class="event-icon">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M5.8 11.3 2 22l10.7-3.79"></path>
+                            <path d="M4 3h.01"></path>
+                            <path d="M22 8h.01"></path>
+                            <path d="M15 2h.01"></path>
+                            <path d="M22 20h.01"></path>
+                            <path d="m22 2-2.24.75a2.9 2.9 0 0 0-1.96 3.12v0c.1.86-.57 1.63-1.45 1.63h-.38c-.86 0-1.6.6-1.76 1.44L14 10"></path>
+                            <path d="m22 13-.82-.33c-.86-.34-1.82.2-1.98 1.11v0c-.11.7-.72 1.22-1.43 1.22H17"></path>
+                            <path d="m11 2 .33.82c.34.86-.2 1.82-1.11 1.98v0C9.52 4.9 9 5.52 9 6.23V7"></path>
+                            <path d="M11 13c1.93 1.93 2.83 4.17 2 5-.83.83-3.07-.07-5-2-1.93-1.93-2.83-4.17-2-5 .83-.83 3.07.07 5 2Z"></path>
+                        </svg>
+                    </div>
+                    <h3>Celebraciones de Cumpleaños</h3>
+                    <p>Haz que tu cumpleaños sea especial. Combina una partida de pádel con tus amigos y celebra después con nuestra comida casera y ambiente inmejorable.</p>
+                    <ul class="event-features">
+                        <li>✓ Espacios privados disponibles</li>
+                        <li>✓ Menús adaptados a grupos</li>
+                        <li>✓ Reserva de pistas incluida</li>
+                        <li>✓ Opción de paella o menú buffet</li>
+                        <li>✓ Ambiente familiar y acogedor</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section id="galeria" class="gallery">
+        <div class="gallery-header">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Galería</h2>
+                    <div class="section-divider"></div>
+                    <p class="section-description">Un vistazo a nuestros platos y ambiente</p>
+                </div>
+            </div>
+        </div>
+        
+        <div class="gallery-carousel-wrapper">
+            <div class="gallery-carousel" id="galleryCarousel">
+                <div class="gallery-track">
+                    <div class="gallery-item">
+                        <img src="../images/placeholder-gallery.jpg" alt="Plato Wurko" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Ver más</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/placeholder-gallery.jpg" alt="Ambiente restaurante" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Ver más</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/placeholder-gallery.jpg" alt="Bocadillos" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Ver más</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/placeholder-gallery.jpg" alt="Desayunos" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Ver más</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/placeholder-gallery.jpg" alt="Comida casera" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Ver más</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/placeholder-gallery.jpg" alt="Local" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Ver más</span>
+                        </div>
+                    </div>
+                    <!-- Duplicate items for infinite loop -->
+                    <div class="gallery-item">
+                        <img src="../images/placeholder-gallery.jpg" alt="Plato Wurko" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Ver más</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/placeholder-gallery.jpg" alt="Ambiente restaurante" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Ver más</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/placeholder-gallery.jpg" alt="Bocadillos" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Ver más</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/placeholder-gallery.jpg" alt="Desayunos" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Ver más</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/placeholder-gallery.jpg" alt="Comida casera" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Ver más</span>
+                        </div>
+                    </div>
+                    <div class="gallery-item">
+                        <img src="../images/placeholder-gallery.jpg" alt="Local" loading="lazy">
+                        <div class="gallery-overlay">
+                            <span>Ver más</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="container">
+            <p class="gallery-note">*Las imágenes son placeholders. Reemplaza con fotos reales del restaurante.</p>
+        </div>
+    </section>
+
+    <!-- Reservations Section -->
+    <section id="reservas" class="reservations">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Haz tu Reserva</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Reserva tu mesa y disfruta de nuestra comida casera</p>
+            </div>
+            <div class="reservations-content">
+                <form class="reservation-form" id="reservationForm" action="https://formspree.io/f/xqeddavz" method="POST">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="telefono">Teléfono</label>
+                            <input type="tel" id="telefono" name="telefono" pattern="[0-9]{9,15}" title="Introduce un número de teléfono válido" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="fecha">Fecha</label>
+                            <input type="date" id="fecha" name="fecha" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="hora">Hora</label>
+                            <input type="time" id="hora" name="hora" required>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="personas">Número de personas</label>
+                        <select id="personas" name="personas" required>
+                            <option value="">Selecciona...</option>
+                            <option value="1">1 persona</option>
+                            <option value="2">2 personas</option>
+                            <option value="3">3 personas</option>
+                            <option value="4">4 personas</option>
+                            <option value="5">5 personas</option>
+                            <option value="6+">6 o más personas</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="comentarios">Comentarios adicionales (opcional)</label>
+                        <textarea id="comentarios" name="comentarios" rows="4"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Enviar Reserva</button>
+                </form>
+                <div class="reservation-info">
+                    <div class="info-box">
+                        <h3>Llámanos Directamente</h3>
+                        <p class="phone-number"><a href="tel:+34690968602">690 96 86 02</a></p>
+                        <p>También puedes llamarnos para hacer tu reserva por teléfono</p>
+                    </div>
+                    <div class="info-box">
+                        <h3>Horarios</h3>
+                        <ul class="hours-list">
+                            <li><strong>Lunes - Viernes:</strong> 6:30 - 00:00</li>
+                            <li><strong>Sábado:</strong> 9:00 - 22:30</li>
+                            <li><strong>Domingo:</strong> 9:00 - 22:30</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews Section -->
+    <section class="reviews">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Reseñas de Google</h2>
+                <div class="section-divider"></div>
+                <p class="section-description">Lo que nuestros clientes dicen en Google</p>
+            </div>
+            
+            <div class="reviews-carousel-wrapper">
+                <div class="reviews-carousel" id="reviewsCarousel">
+                    <!-- Review 1 -->
+                    <div class="review-slide active">
+                        <div class="review-content">
+                            <div class="review-header">
+                                <div class="review-author-info">
+                                    <div class="review-avatar">
+                                        <span>Ma</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="review-author">Margui</h4>
+                                        <div class="review-stars">★★★★★</div>
+                                    </div>
+                                </div>
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%234285F4' d='M45.12 24.5c0-1.56-.14-3.06-.4-4.5H24v8.51h11.84c-.51 2.75-2.06 5.08-4.39 6.64v5.52h7.11c4.16-3.83 6.56-9.47 6.56-16.17z'/%3E%3Cpath fill='%2334A853' d='M24 46c5.94 0 10.92-1.97 14.56-5.33l-7.11-5.52c-1.97 1.32-4.49 2.1-7.45 2.1-5.73 0-10.58-3.87-12.31-9.07H4.34v5.7C7.96 41.07 15.4 46 24 46z'/%3E%3Cpath fill='%23FBBC05' d='M11.69 28.18C11.25 26.86 11 25.45 11 24s.25-2.86.69-4.18v-5.7H4.34C2.85 17.09 2 20.45 2 24c0 3.55.85 6.91 2.34 9.88l7.35-5.7z'/%3E%3Cpath fill='%23EA4335' d='M24 10.75c3.23 0 6.13 1.11 8.41 3.29l6.31-6.31C34.91 4.18 29.93 2 24 2 15.4 2 7.96 6.93 4.34 14.12l7.35 5.7c1.73-5.2 6.58-9.07 12.31-9.07z'/%3E%3C/svg%3E" alt="Google" class="google-logo">
+                            </div>
+                            <p class="review-text">"Soy asidua de esta cafeteria desde hace ya muuuchos años. Y hoy me pedí un Menú para almorzar... y es que el segundo plato estaba...¡¡De muuuerteeeee!! Rulo de Ternera rellena de Bacon y queso con salsa de champiñones, arroz blanco y papas fritas NATURALES, suuuper crujientes ¡¡De Locos!!"</p>
+                            <span class="review-date">Hace 10 meses</span>
+                        </div>
+                    </div>
+
+                    <!-- Review 2 -->
+                    <div class="review-slide">
+                        <div class="review-content">
+                            <div class="review-header">
+                                <div class="review-author-info">
+                                    <div class="review-avatar">
+                                        <span>VY</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="review-author">Vladimir Yutronic Mery</h4>
+                                        <div class="review-stars">★★★★★</div>
+                                    </div>
+                                </div>
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%234285F4' d='M45.12 24.5c0-1.56-.14-3.06-.4-4.5H24v8.51h11.84c-.51 2.75-2.06 5.08-4.39 6.64v5.52h7.11c4.16-3.83 6.56-9.47 6.56-16.17z'/%3E%3Cpath fill='%2334A853' d='M24 46c5.94 0 10.92-1.97 14.56-5.33l-7.11-5.52c-1.97 1.32-4.49 2.1-7.45 2.1-5.73 0-10.58-3.87-12.31-9.07H4.34v5.7C7.96 41.07 15.4 46 24 46z'/%3E%3Cpath fill='%23FBBC05' d='M11.69 28.18C11.25 26.86 11 25.45 11 24s.25-2.86.69-4.18v-5.7H4.34C2.85 17.09 2 20.45 2 24c0 3.55.85 6.91 2.34 9.88l7.35-5.7z'/%3E%3Cpath fill='%23EA4335' d='M24 10.75c3.23 0 6.13 1.11 8.41 3.29l6.31-6.31C34.91 4.18 29.93 2 24 2 15.4 2 7.96 6.93 4.34 14.12l7.35 5.7c1.73-5.2 6.58-9.07 12.31-9.07z'/%3E%3C/svg%3E" alt="Google" class="google-logo">
+                            </div>
+                            <p class="review-text">"Sólo me he tomado un café, no sé cómo es la comida, amplio estacionamiento y gran terraza."</p>
+                            <span class="review-date">Hace 1 año</span>
+                        </div>
+                    </div>
+
+                    <!-- Review 3 -->
+                    <div class="review-slide">
+                        <div class="review-content">
+                            <div class="review-header">
+                                <div class="review-author-info">
+                                    <div class="review-avatar">
+                                        <span>JC</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="review-author">Jonay Conde Febrer</h4>
+                                        <div class="review-stars">★★★★★</div>
+                                    </div>
+                                </div>
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%234285F4' d='M45.12 24.5c0-1.56-.14-3.06-.4-4.5H24v8.51h11.84c-.51 2.75-2.06 5.08-4.39 6.64v5.52h7.11c4.16-3.83 6.56-9.47 6.56-16.17z'/%3E%3Cpath fill='%2334A853' d='M24 46c5.94 0 10.92-1.97 14.56-5.33l-7.11-5.52c-1.97 1.32-4.49 2.1-7.45 2.1-5.73 0-10.58-3.87-12.31-9.07H4.34v5.7C7.96 41.07 15.4 46 24 46z'/%3E%3Cpath fill='%23FBBC05' d='M11.69 28.18C11.25 26.86 11 25.45 11 24s.25-2.86.69-4.18v-5.7H4.34C2.85 17.09 2 20.45 2 24c0 3.55.85 6.91 2.34 9.88l7.35-5.7z'/%3E%3Cpath fill='%23EA4335' d='M24 10.75c3.23 0 6.13 1.11 8.41 3.29l6.31-6.31C34.91 4.18 29.93 2 24 2 15.4 2 7.96 6.93 4.34 14.12l7.35 5.7c1.73-5.2 6.58-9.07 12.31-9.07z'/%3E%3C/svg%3E" alt="Google" class="google-logo">
+                            </div>
+                            <p class="review-text">"Buena cafetería con muchas variedades tanto para desayunar como almorzar, con un comedor grande y una amplia terraza donde comer con tranquilidad."</p>
+                            <span class="review-date">Hace 4 meses</span>
+                        </div>
+                    </div>
+
+                    <!-- Review 4 -->
+                    <div class="review-slide">
+                        <div class="review-content">
+                            <div class="review-header">
+                                <div class="review-author-info">
+                                    <div class="review-avatar">
+                                        <span>My</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="review-author">Mayco</h4>
+                                        <div class="review-stars">★★★★★</div>
+                                    </div>
+                                </div>
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%234285F4' d='M45.12 24.5c0-1.56-.14-3.06-.4-4.5H24v8.51h11.84c-.51 2.75-2.06 5.08-4.39 6.64v5.52h7.11c4.16-3.83 6.56-9.47 6.56-16.17z'/%3E%3Cpath fill='%2334A853' d='M24 46c5.94 0 10.92-1.97 14.56-5.33l-7.11-5.52c-1.97 1.32-4.49 2.1-7.45 2.1-5.73 0-10.58-3.87-12.31-9.07H4.34v5.7C7.96 41.07 15.4 46 24 46z'/%3E%3Cpath fill='%23FBBC05' d='M11.69 28.18C11.25 26.86 11 25.45 11 24s.25-2.86.69-4.18v-5.7H4.34C2.85 17.09 2 20.45 2 24c0 3.55.85 6.91 2.34 9.88l7.35-5.7z'/%3E%3Cpath fill='%23EA4335' d='M24 10.75c3.23 0 6.13 1.11 8.41 3.29l6.31-6.31C34.91 4.18 29.93 2 24 2 15.4 2 7.96 6.93 4.34 14.12l7.35 5.7c1.73-5.2 6.58-9.07 12.31-9.07z'/%3E%3C/svg%3E" alt="Google" class="google-logo">
+                            </div>
+                            <p class="review-text">"También tienen variedad de menús. Muy bueno...."</p>
+                            <span class="review-date">Hace 3 años</span>
+                        </div>
+                    </div>
+
+                    <!-- Review 5 -->
+                    <div class="review-slide">
+                        <div class="review-content">
+                            <div class="review-header">
+                                <div class="review-author-info">
+                                    <div class="review-avatar">
+                                        <span>FM</span>
+                                    </div>
+                                    <div>
+                                        <h4 class="review-author">Fernando Morales</h4>
+                                        <div class="review-stars">★★★★★</div>
+                                    </div>
+                                </div>
+                                <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 48 48'%3E%3Cpath fill='%234285F4' d='M45.12 24.5c0-1.56-.14-3.06-.4-4.5H24v8.51h11.84c-.51 2.75-2.06 5.08-4.39 6.64v5.52h7.11c4.16-3.83 6.56-9.47 6.56-16.17z'/%3E%3Cpath fill='%2334A853' d='M24 46c5.94 0 10.92-1.97 14.56-5.33l-7.11-5.52c-1.97 1.32-4.49 2.1-7.45 2.1-5.73 0-10.58-3.87-12.31-9.07H4.34v5.7C7.96 41.07 15.4 46 24 46z'/%3E%3Cpath fill='%23FBBC05' d='M11.69 28.18C11.25 26.86 11 25.45 11 24s.25-2.86.69-4.18v-5.7H4.34C2.85 17.09 2 20.45 2 24c0 3.55.85 6.91 2.34 9.88l7.35-5.7z'/%3E%3Cpath fill='%23EA4335' d='M24 10.75c3.23 0 6.13 1.11 8.41 3.29l6.31-6.31C34.91 4.18 29.93 2 24 2 15.4 2 7.96 6.93 4.34 14.12l7.35 5.7c1.73-5.2 6.58-9.07 12.31-9.07z'/%3E%3C/svg%3E" alt="Google" class="google-logo">
+                            </div>
+                            <p class="review-text">"Pongo 5 estrellas por el reciente fichaje de Fernando un camarero tan profesional como buena persona, siempre con una sonrisa y muy atento. Fichazo."</p>
+                            <span class="review-date">Hace 3 años</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Carousel indicators -->
+                <div class="carousel-indicators" id="carouselIndicators">
+                    <button class="indicator active" data-slide="0"></button>
+                    <button class="indicator" data-slide="1"></button>
+                    <button class="indicator" data-slide="2"></button>
+                    <button class="indicator" data-slide="3"></button>
+                    <button class="indicator" data-slide="4"></button>
+                </div>
+
+                <!-- Navigation arrows -->
+                <button class="carousel-arrow prev" id="prevReview">‹</button>
+                <button class="carousel-arrow next" id="nextReview">›</button>
+            </div>
+
+            <div class="google-cta">
+                <p>¿Has visitado Wurko? Déjanos tu opinión en Google</p>
+                <a href="https://maps.google.com/maps?hl=en&gl=es&um=1&ie=UTF-8&fb=1&sa=X&ftid=0xc41ccc31a765679:0x56284ccca482e045" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Dejar Reseña</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Contacto y Ubicación</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-layout">
+                <div class="contact-left">
+                    <div class="contact-item contact-schedule">
+                        <h3>Horarios</h3>
+                        <ul class="hours-detailed">
+                            <li><span>Lunes</span><span>6:30 - 00:00</span></li>
+                            <li><span>Martes</span><span>6:30 - 00:00</span></li>
+                            <li><span>Miércoles</span><span>6:30 - 00:00</span></li>
+                            <li><span>Jueves</span><span>6:30 - 00:00</span></li>
+                            <li><span>Viernes</span><span>6:30 - 00:00</span></li>
+                            <li><span>Sábado</span><span>9:00 - 22:30</span></li>
+                            <li><span>Domingo</span><span>9:00 - 22:30</span></li>
+                        </ul>
+                    </div>
+                    <div class="contact-info-extra">
+                        <div class="info-extra-item">
+                            <h4>Dirección</h4>
+                            <p>Polígono Industrial<br>Santa Cruz de Tenerife, Canarias</p>
+                            <a href="https://www.google.com/maps/place//data=!4m2!3m1!1s0xc41ccc31a765679:0x56284ccca482e045" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-small">Google Maps</a>
+                        </div>
+                        <div class="info-extra-item">
+                            <h4>Teléfono</h4>
+                            <p><a href="tel:+34690968602">690 96 86 02</a></p>
+                            <button onclick="if(confirm('¿Llamar al 690 96 86 02?')) window.location.href='tel:+34690968602'" class="btn btn-outline btn-small">Llamar Ahora</button>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-right">
+                    <div class="contact-map-full">
+                        <iframe 
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3179.6826889707886!2d-6.101616!3d36.701263!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xc41ccc31a765679%3A0x56284ccca482e045!2sWurko!5e0!3m2!1ses!2ses!4v1737584000000!5m2!1ses!2ses" 
+                            width="100%" 
+                            height="100%" 
+                            style="border:0;" 
+                            allowfullscreen="" 
+                            loading="lazy" 
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="../images/Logo_Wurko.jpg" alt="Wurko Logo">
+                    <p>Comida casera y eventos especiales en Wurko Pádel</p>
+                </div>
+                <div class="footer-links">
+                    <h4>Enlaces Rápidos</h4>
+                    <ul>
+                        <li><a href="#inicio">Inicio</a></li>
+                        <li><a href="#sobre-nosotros">Sobre Nosotros</a></li>
+                        <li><a href="#menu">Menú</a></li>
+                        <li><a href="#eventos">Eventos y Paellas</a></li>
+                        <li><a href="#reservas">Reservas</a></li>
+                    </ul>
+                </div>
+                <div class="footer-contact">
+                    <h4>Contacto</h4>
+                    <p><a href="tel:+34690968602">690 96 86 02</a></p>
+                    <p><a href="tel:+34922547487">922 54 74 87</a></p>
+                    <p>Polígono Industrial<br>Santa Cruz de Tenerife, Canarias</p>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Wurko Cafetería-Restaurante. Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Back to Top Button -->
+    <button class="back-to-top" id="backToTop">↑</button>
+
+    <!-- WhatsApp Floating Button -->
+    <a href="https://wa.me/34690968602?text=Hola%2C%20me%20gustaría%20obtener%20más%20información%20sobre%20Wurko%20Cafetería-Restaurante" target="_blank" rel="noopener noreferrer" class="whatsapp-float" aria-label="Contactar por WhatsApp">
+        <svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M16 0C7.164 0 0 7.164 0 16c0 2.828.736 5.484 2.012 7.792L0 32l8.396-2.004A15.926 15.926 0 0016 32c8.836 0 16-7.164 16-16S24.836 0 16 0z" fill="#25D366"/>
+            <path d="M25.36 22.36c-.384 1.088-2.268 2.028-3.128 2.164-.86.136-1.664.396-5.608-1.204-5.044-2.044-8.28-7.184-8.532-7.512-.248-.328-2.052-2.732-2.052-5.212s1.292-3.692 1.752-4.2c.46-.508 1.004-.636 1.34-.636.336 0 .672.004.968.02.308.012.724-.12 1.132 1.364.412 1.496 1.404 3.428 1.528 3.68.124.252.208.548.04.876-.164.328-.248.532-.496.82-.248.288-.52.644-.744.864-.248.248-.508.516-.22.012.288.504 1.28 2.112 2.752 3.42 1.892 1.684 3.48 2.208 3.976 2.46.496.252.784.208 1.072-.124.288-.332 1.236-1.444 1.568-1.94.332-.496.664-.412 1.12-.248.456.164 2.912 1.372 3.412 1.624.5.252.832.376.952.588.12.212.12 1.22-.264 2.308z" fill="#FEFEFE"/>
+        </svg>
+    </a>
+
+    <!-- Cookie Banner -->
+    <div id="cookie-banner" class="cookie-banner">
+        <div class="cookie-content">
+            <p>🍪 Usamos cookies para mejorar tu experiencia en nuestra web. <a href="#" style="color:var(--primary-green)">Más información</a></p>
+            <div class="cookie-buttons">
+                <button id="cookie-accept" class="btn btn-primary btn-small">Aceptar</button>
+                <button id="cookie-reject" class="btn btn-outline btn-small">Rechazar</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="../js/script.js"></script>
+</body>
+</html>
