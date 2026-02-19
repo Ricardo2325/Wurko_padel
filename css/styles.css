@@ -23,7 +23,6 @@
     --accent-yellow: #FFD93D;
     
     /* Typography */
-    --font-display: 'Playfair Display', serif;
     --font-body: 'Montserrat', sans-serif;
     
     /* Spacing */
@@ -249,8 +248,8 @@ img {
     letter-spacing: 2px;
     text-shadow: 3px 3px 0 rgba(0, 0, 0, 0.2);
     animation: slideInLeft 0.8s ease-out;
-    font-style: italic;
-    font-family: var(--font-display);
+    font-style: normal;
+    font-family: var(--font-body);
 }
 
 .hero-title-bottom {
@@ -261,7 +260,7 @@ img {
     animation: slideInRight 0.8s ease-out 0.2s both;
     font-weight: 400;
     font-style: normal;
-    font-family: var(--font-display);
+    font-family: var(--font-body);
 }
 
 @keyframes slideInLeft {
@@ -609,7 +608,7 @@ img {
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--primary-green);
-    font-family: var(--font-display);
+    font-family: var(--font-body);
 }
 
 .menu-full-cta {
@@ -867,7 +866,7 @@ img {
     color: var(--white);
     font-size: 3rem;
     font-weight: 700;
-    font-family: var(--font-display);
+    font-family: var(--font-body);
     line-height: 1;
 }
 
@@ -975,7 +974,7 @@ img {
 }
 
 .testimonial-item p {
-    font-style: italic;
+    font-style: normal;
     color: var(--dark-gray);
     margin-bottom: 15px;
     line-height: 1.6;
@@ -1107,7 +1106,7 @@ img {
 .gallery-note {
     text-align: center;
     color: var(--gray);
-    font-style: italic;
+    font-style: normal;
     font-size: 0.9rem;
     padding: 0 20px;
 }
@@ -1361,7 +1360,7 @@ img {
     color: var(--dark-gray);
     flex-grow: 1;
     margin-bottom: 20px;
-    font-style: italic;
+    font-style: normal;
 }
 
 .review-date {
