@@ -273,7 +273,7 @@ const WurkoApp = {
     let isInteracting = false;
     let autoScrollId = null;
     let resumeTimeout = null;
-    const speed = window.innerWidth <= 768 ? 0.5 : 0.35;
+    const speed = window.innerWidth <= 1024 ? 0.6 : 0.35;
     let accumulated = 0;
 
     const startAutoScroll = () => {
