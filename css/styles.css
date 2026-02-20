@@ -1797,6 +1797,14 @@ img {
 @media (max-width: 768px) {
     .hero-title-top { font-size: 4.5rem; }
     .hero-title-bottom { font-size: 2rem; }
+
+    .hero-title {
+        padding: 0 20px;
+    }
+
+    .about-text {
+        padding: 0 10px;
+    }
     
     .section-title { font-size: 2.5rem; }
     
